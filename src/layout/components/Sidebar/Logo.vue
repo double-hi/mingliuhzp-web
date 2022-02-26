@@ -35,7 +35,7 @@ export default {
   },
   data() {
     return {
-      title: 'JooLun微信管理系统',
+      title: 'mingliuhzp微信管理系统',
       logo: logoImg
     }
   }

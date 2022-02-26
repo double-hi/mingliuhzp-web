@@ -9,13 +9,13 @@
         <search id="header-search" class="right-menu-item" />
 
         <el-tooltip content="源码地址" effect="dark" placement="bottom">
-          <a href="https://gitee.com/joolun/JooLun-wx" target="_blank" class="right-menu-item hover-effect">
+          <a href="https://gitee.com/mingliuhzp/mingliuhzp-wx" target="_blank" class="right-menu-item hover-effect">
             <i class="el-icon-connection"></i>
           </a>
         </el-tooltip>
 
         <el-tooltip content="访问官网" effect="dark" placement="bottom">
-          <a href="http://www.joolun.com/" target="_blank" class="right-menu-item hover-effect">
+          <a href="http://www.mingliuhzp.com/" target="_blank" class="right-menu-item hover-effect">
             <i class="el-icon-house"></i>
           </a>
         </el-tooltip>

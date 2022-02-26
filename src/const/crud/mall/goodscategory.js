@@ -1,6 +1,6 @@
 /**
  * Copyright (C) 2018-2019
- * All rights reserved, Designed By www.joolun.com
+ * All rights reserved, Designed By www.mingliuhzp.com
  */
 export const tableOption = {
   dialogDrag: true,
@@ -84,13 +84,14 @@ export const tableOption = {
         trigger: 'change'
       }],
       canvasOption: {
-        text: 'joolun',
+        text: 'mingliuhzp',
         ratio: 0.1
       },
       oss: 'ali',
       loadText: '附件上传中，请稍等',
       span: 24,
       tip: '只能上传jpg/png文件，且不超过50kb',
+      // action: '/imgupload'
     },
     {
       label: '描述',

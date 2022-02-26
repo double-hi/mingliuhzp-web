@@ -1,7 +1,7 @@
 <!--
 MIT License
 
-Copyright (c) 2020 www.joolun.com
+Copyright (c) 2020 www.mingliuhzp.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -51,7 +51,7 @@ SOFTWARE.
             </template>
             <template slot="latitude" slot-scope="scope">
                 <el-link v-if="scope.row.longitude" type="primary" target="_blank"
-                         :href="'https://map.qq.com/?type=marker&isopeninfowin=1&markertype=1&pointx='+scope.row.longitude+'&pointy='+scope.row.latitude+'&name='+scope.row.nickName+'&ref=joolun'">
+                         :href="'https://map.qq.com/?type=marker&isopeninfowin=1&markertype=1&pointx='+scope.row.longitude+'&pointy='+scope.row.latitude+'&name='+scope.row.nickName+'&ref=mingliuhzp'">
                     <i class="el-icon-map-location"></i>
                 </el-link>
             </template>

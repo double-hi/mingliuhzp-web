@@ -6,7 +6,7 @@ function resolve(dir) {
   return path.join(__dirname, dir)
 }
 
-const name = defaultSettings.title || 'JooLun微信管理系统' // 标题
+const name = defaultSettings.title || 'mingliuhzp微信管理系统' // 标题
 
 const port = process.env.port || process.env.npm_config_port || 80 // 端口
 
@@ -24,7 +24,7 @@ module.exports = {
   assetsDir: 'static',
   // 是否开启eslint保存检测，有效值：ture | false | 'error'
   lintOnSave: process.env.NODE_ENV === 'development',
-  // 如果你不需要生产环境的 source map，可以将其设置为 false 以加速生产环境构建。
+  // 如果你不需要生产环境的 source map，可以将其设置为 falsen 以加速生产环境构建。
   productionSourceMap: false,
   // webpack-dev-server 相关配置
   devServer: {
@@ -34,7 +34,8 @@ module.exports = {
     proxy: {
       // detail: https://cli.vuejs.org/config/#devserver-proxy
       [process.env.VUE_APP_BASE_API]: {
-        target: `http://localhost:7500`,
+        target: `http://124.222.59.231:7500`,
+        // target: `http://localhost:7500`,
         changeOrigin: true,
         pathRewrite: {
           ['^' + process.env.VUE_APP_BASE_API]: ''

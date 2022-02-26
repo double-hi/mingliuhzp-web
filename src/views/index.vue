@@ -4,7 +4,7 @@
       <el-col :sm="24" :lg="8" style="padding-left: 20px">
         <el-card class="update-log">
           <div slot="header" class="clearfix">
-            <span>JooLun微信管理框架-开源版</span>
+            <span>mingliuhzp微信管理框架-开源版</span>
           </div>
           <div class="body">
             <img src="https://images.gitee.com/uploads/images/2020/0305/171054_0a84eb49_5079715.jpeg" alt="donate"/>
@@ -43,12 +43,12 @@
               size="mini"
               icon="el-icon-cloudy"
               plain
-              @click="goTarget('https://gitee.com/joolun/JooLun-wx')">访问码云</el-button>
+              @click="goTarget('https://gitee.com/mingliuhzp/mingliuhzp-wx')">访问码云</el-button>
             <el-button
               size="mini"
               icon="el-icon-s-home"
               plain
-              @click="goTarget('https://www.joolun.com/')">访问官网</el-button>
+              @click="goTarget('https://www.mingliuhzp.com/')">访问官网</el-button>
           </p>
         </el-card>
       </el-col>
@@ -60,7 +60,7 @@
           <div class="body">
             <el-row :gutter="20">
               <el-col :sm="24" :lg="12">
-                <img src="https://joolun-blog.oss-cn-zhangjiakou.aliyuncs.com/qrcode/qrcode_for_gh_6999ad5cfb2f_258.jpg" alt="donate"/>
+                <img src="https://mingliuhzp-blog.oss-cn-zhangjiakou.aliyuncs.com/qrcode/qrcode_for_gh_6999ad5cfb2f_258.jpg" alt="donate"/>
                 <p><span style="font-size: 20px">小程序商城单店版</span></p>
                 <el-row>
                   <el-col :span="12">
@@ -98,16 +98,16 @@
                     size="mini"
                     icon="el-icon-cloudy"
                     plain
-                    @click="goTarget('https://demo.joolun.com/')">后台演示</el-button>
+                    @click="goTarget('https://demo.mingliuhzp.com/')">后台演示</el-button>
                   <el-button
                     size="mini"
                     icon="el-icon-s-home"
                     plain
-                    @click="goTarget('https://www.joolun.com/xcxscb.html')">获取源码</el-button>
+                    @click="goTarget('https://www.mingliuhzp.com/xcxscb.html')">获取源码</el-button>
                 </p>
               </el-col>
               <el-col :sm="24" :lg="12">
-                <img src="https://joolun-blog.oss-cn-zhangjiakou.aliyuncs.com/qrcode/qrcode_for_gh_ae23ad0d32af_258.jpg" alt="donate"/>
+                <img src="https://mingliuhzp-blog.oss-cn-zhangjiakou.aliyuncs.com/qrcode/qrcode_for_gh_ae23ad0d32af_258.jpg" alt="donate"/>
                 <p><span style="font-size: 20px">uniapp商城多店版</span></p>
                 <el-row>
                   <el-col :span="12">
@@ -149,12 +149,12 @@
                     size="mini"
                     icon="el-icon-cloudy"
                     plain
-                    @click="goTarget('https://demo1.joolun.com/')">后台演示</el-button>
+                    @click="goTarget('https://demo1.mingliuhzp.com/')">后台演示</el-button>
                   <el-button
                     size="mini"
                     icon="el-icon-s-home"
                     plain
-                    @click="goTarget('https://www.joolun.com/uniappddb.html')">获取源码</el-button>
+                    @click="goTarget('https://www.mingliuhzp.com/uniappddb.html')">获取源码</el-button>
                 </p>
               </el-col>
             </el-row>

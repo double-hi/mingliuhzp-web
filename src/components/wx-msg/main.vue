@@ -1,6 +1,6 @@
 <!--
   - Copyright (C) 2018-2019
-  - All rights reserved, Designed By www.joolun.com
+  - All rights reserved, Designed By www.mingliuhzp.com
 -->
 <template>
   <div class="msg-main" v-loading="mainLoading">
@@ -40,7 +40,7 @@
                 <WxVideoPlayer :objData="item"></WxVideoPlayer>
               </div>
               <div v-if="item.repType == 'location'">
-                <el-link type="primary" target="_blank" :href="'https://map.qq.com/?type=marker&isopeninfowin=1&markertype=1&pointx='+item.repLocationY+'&pointy='+item.repLocationX+'&name='+item.repContent+'&ref=joolun'">
+                <el-link type="primary" target="_blank" :href="'https://map.qq.com/?type=marker&isopeninfowin=1&markertype=1&pointx='+item.repLocationY+'&pointy='+item.repLocationX+'&name='+item.repContent+'&ref=mingliuhzp'">
                   <img :src="'https://apis.map.qq.com/ws/staticmap/v2/?zoom=10&markers=color:blue|label:A|'+item.repLocationX+','+item.repLocationY+'&key='+qqMapKey+'&size=250*180'">
                   <p/><i class="el-icon-map-location"></i>{{item.repContent}}
                 </el-link>

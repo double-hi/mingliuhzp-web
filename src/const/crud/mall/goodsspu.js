@@ -1,8 +1,8 @@
 /**
  * Copyright (C) 2018-2019
- * All rights reserved, Designed By www.joolun.com
+ * All rights reserved, Designed By www.mingliuhzp.com
  * 注意：
- * 本软件为www.joolun.com开发研制，项目使用请保留此说明
+ * 本软件为www.mingliuhzp.com开发研制，项目使用请保留此说明
  */
 export const tableOption = {
     dialogType: 'drawer',
@@ -144,7 +144,7 @@ export const tableOption = {
                   trigger: 'change'
                 }],
                 canvasOption: {
-                  text: 'joolun',
+                  text: 'mingliuhzp',
                   ratio: 0.1
                 },
                 oss: 'ali',

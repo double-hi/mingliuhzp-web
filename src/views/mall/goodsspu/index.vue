@@ -1,8 +1,8 @@
 <!--
   - Copyright (C) 2018-2019
-  - All rights reserved, Designed By www.joolun.com
+  - All rights reserved, Designed By www.mingliuhzp.com
   - 注意：
-  - 本软件为www.joolun.com开发研制，项目使用请保留此说明
+  - 本软件为www.mingliuhzp.com开发研制，项目使用请保留此说明
 -->
 <template>
   <div class="app-container">
@@ -54,9 +54,9 @@
                   @change="changeShelf(scope.row)">
           </el-switch>
         </template>
-        <template slot="descriptionForm" slot-scope="scope">
-          <BaseEditor v-model="scope.row.description"/>
-        </template>
+        <!-- <template slot="descriptionForm" slot-scope="scope"> -->
+          <!-- <BaseEditor v-model="scope.row.description"/> -->
+        <!-- </template> -->
         <template slot="picUrls" slot-scope="scope">
           <el-image
             style="width: 100px; height: 100px"

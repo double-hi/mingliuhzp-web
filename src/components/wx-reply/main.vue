@@ -1,6 +1,6 @@
 <!--
   - Copyright (C) 2018-2019
-  - All rights reserved, Designed By www.joolun.com
+  - All rights reserved, Designed By www.mingliuhzp.com
 -->
 <template>
   <el-tabs type="border-card" v-model="objData.repType" @tab-click="handleClick">
